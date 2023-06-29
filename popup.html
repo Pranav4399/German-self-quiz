@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>German Verbs Quiz</title>
+  <link rel="stylesheet" href="popup.css">
+  <script src="popup.js"></script>
+  <script src="xlsx.full.min.js"></script>
+</head>
+<body>
+  <h1>German Verbs Quiz</h1>
+  <div class="button-container">
+    <button id="verbs-button" class="quiz-button">Verbs</button>
+    <button id="adjectives-button" class="quiz-button">Adjectives</button>
+    <button id="der-button" class="quiz-button">Der</button>
+  </div>
+  <div id="start-container">
+    <input type="file" id="file-upload" accept=".ods" />
+    <button id="start-quiz" disabled>Start Quiz</button>
+  </div>
+  <form id="answer-form" style="display: none;">
+    <p id="question"></p>
+    <input type="text" id="answer-input" required />
+    <button type="submit">Submit</button>
+  </form>
+  <div id="counter">Right Answers: 0 / Total Questions: 0</div>
+  <div id="wrong-answers-container"></div>
+</body>
+</html>
