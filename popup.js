@@ -9,10 +9,12 @@ document.addEventListener('DOMContentLoaded', function () {
   });
   
   document.getElementById('adjectives-button').addEventListener('click', function () {
+    alert("Not implemented yet");
     //parseFile2('adjective');
   });
   
   document.getElementById('der-button').addEventListener('click', function () {
+    alert("Not implemented yet");
     //parseFile2('der');
   });
   
